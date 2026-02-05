@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DDP PRO — B2B поставщик бытовой и компьютерной техники</title>
+<meta content="DDP PRO — надёжный поставщик бытовой и компьютерной техники. Работа с заказами от 50 000 ₽, гарантия, документы, понятные цены. Вход в B2B / каталог." name="description"/>
+<meta content="#070809" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script defer="" src="main.js"></script>
+</head>
+<body>
+<!-- Header -->
+<header class="header" role="banner">
+<div class="container header__inner">
+<a aria-label="DDP PRO" class="brand" href="#top">
+<img alt="DDP PRO" src="assets/logo.png"/>
+</a>
+<nav aria-label="Основная навигация" class="nav">
+<a href="#partner">Стать партнёром</a>
+<a href="#aboutCompany">О компании</a>
+<a aria-label="Вход в B2B" class="btn btn--primary btn--header" href="/b2b" role="button">Вход в B2B</a>
+</nav>
+<div class="header__actions">
+<button aria-controls="mobileSheet" aria-expanded="false" aria-label="Меню" class="burger" id="burger">☰</button>
+</div>
+</div>
+</header>
+<!-- Hero -->
+<main class="hero" id="top">
+<div class="container hero__grid">
+<div>
+<div class="kicker" data-hero="kicker">
+<span aria-hidden="true" class="dot"></span>
+<span>DDP PRO / B2B поставки</span>
+</div>
+<h1 class="h1" data-hero="h1">DDP PRO — надёжный поставщик бытовой и компьютерной техники</h1>
+<p class="lead">Минимум слов — максимум прозрачности: документы, гарантия и понятные условия для партнёров.</p>
+<div aria-label="Ключевые преимущества" class="badges" data-hero="badges">
+<div class="badge">
+<svg aria-hidden="true" fill="none" height="16" viewbox="0 0 24 24" width="16"><path d="M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7z" stroke="currentColor" stroke-width="1.6"></path></svg>
+            Работа с заказами от 50 000 ₽
+          </div>
+<div class="badge">
+<svg aria-hidden="true" fill="none" height="16" viewbox="0 0 24 24" width="16"><path d="M12 1.8l7 3.6v6.8c0 5-3 8.7-7 10-4-1.3-7-5-7-10V5.4l7-3.6z" stroke="currentColor" stroke-width="1.6"></path></svg>
+            Официальная гарантия
+          </div>
+<div class="badge">
+<svg aria-hidden="true" fill="none" height="16" viewbox="0 0 24 24" width="16"><path d="M7 3h10v18H7z" stroke="currentColor" stroke-width="1.6"></path><path d="M9 7h6M9 11h6M9 15h6" stroke="currentColor" stroke-width="1.6"></path></svg>
+            Полный пакет документов
+          </div>
+<div class="badge">
+<svg aria-hidden="true" fill="none" height="16" viewbox="0 0 24 24" width="16"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.6"></path></svg>
+            Понятные цены
+          </div>
+<div class="badge">
+<svg aria-hidden="true" fill="none" height="16" viewbox="0 0 24 24" width="16"><path d="M3 7h18v10H3z" stroke="currentColor" stroke-width="1.6"></path><path d="M7 7V5h10v2" stroke="currentColor" stroke-width="1.6"></path></svg>
+            Работа с малыми партиями
+          </div>
+</div>
+</div>
+<!-- Right key CTA (single compact panel) -->
+<aside aria-label="Ключевые действия" class="panel" data-hero="panel">
+<div class="panel__title">Быстрый доступ</div>
+<div class="panel__items">
+<a aria-label="Каталог B2B" class="panel__item" href="/b2b">
+<div aria-hidden="true" class="panel__icon">
+<svg fill="none" height="18" viewbox="0 0 24 24" width="18"><path d="M8 7V6a4 4 0 118 0v1" stroke="currentColor" stroke-width="1.6"></path><path d="M6 7h12l-1 14H7L6 7z" stroke="currentColor" stroke-width="1.6"></path></svg>
+</div>
+<div>
+<strong>Каталог B2B</strong>
+<span>Ассортимент, цены, остатки, документы.</span>
+</div>
+</a>
+<a aria-label="Консультация по продуктам" class="panel__item" href="/b2b">
+<div aria-hidden="true" class="panel__icon">
+<svg fill="none" height="18" viewbox="0 0 24 24" width="18"><path d="M21 15a4 4 0 01-4 4H8l-5 3V7a4 4 0 014-4h10a4 4 0 014 4v8z" stroke="currentColor" stroke-width="1.6"></path></svg>
+</div>
+<div>
+<strong>Консультация по продуктам</strong>
+<span>Подбор по задаче и бюджету.</span>
+</div>
+</a>
+<a aria-label="Условия сотрудничества" class="panel__item" href="/b2b">
+<div aria-hidden="true" class="panel__icon">
+<svg fill="none" height="18" viewbox="0 0 24 24" width="18"><path d="M7 4h10v16H7z" stroke="currentColor" stroke-width="1.6"></path><path d="M9 8h6M9 12h6M9 16h4" stroke="currentColor" stroke-width="1.6"></path></svg>
+</div>
+<div>
+<strong>Условия сотрудничества</strong>
+<span>Поставки, гарантия, документы.</span>
+</div>
+</a>
+</div>
+</aside>
+</div>
+</main>
+<!-- Partner steps -->
+<section class="section" data-animate="section" id="steps">
+<div class="container">
+<div class="section__head" data-animate-item="">
+<div>
+<h2 class="h2">Как стать партнёром</h2>
+<p class="sub">Три понятных шага — без лишних формулировок.</p>
+</div>
+</div>
+<div class="steps" data-animate-item="">
+<div class="stepGrid">
+<div class="step" data-animate-item="">
+<div class="step__num">Шаг 01</div>
+<div class="step__title">Запрос на сотрудничество</div>
+<p class="step__text">Заполните анкету партнёра: направление, объёмы, сроки. Мы подтвердим условия.</p>
+</div>
+<div class="step" data-animate-item="">
+<div class="step__num">Шаг 02</div>
+<div class="step__title">Доступ в B2B</div>
+<p class="step__text">Получите вход в каталог: ассортимент, цены, остатки, документы.</p>
+</div>
+<div class="step" data-animate-item="">
+<div class="step__num">Шаг 03</div>
+<div class="step__title">Первая отгрузка</div>
+<p class="step__text">Собираем заказ и передаём в отгрузку с полным пакетом документов.</p>
+</div>
+</div>
+<div class="steps__cta" data-animate-item="">
+<div class="note">Готовы начать? Оставьте заявку внизу страницы — и мы подготовим доступ в B2B.</div>
+<a class="btn btn--primary btn--steps" href="#partner">Перейти к анкете</a>
+</div>
+</div>
+</div>
+</section>
+<!-- About company (full section, no fluff) -->
+<section class="section" data-animate="section" id="aboutCompany">
+<div class="container">
+<div class="section__head" data-animate-item="">
+<div>
+<h2 class="h2">О компании</h2>
+<p class="sub">DDP PRO — российская B2B‑компания из Москвы. С 2012 года поставляем бытовую и компьютерную технику для бизнеса.</p>
+</div>
+</div>
+<div class="aboutGrid" data-animate-item="">
+<div class="aboutCard">
+<h3 class="h3">Кто мы</h3>
+<p><strong>ООО «ДДП‑ПРО» (DDP PRO)</strong> — российская B2B‑компания из Москвы, основана в <strong>2012</strong> году. Поставляем бытовую и компьютерную технику для юрлиц и ИП.</p>
+<div class="mini"><span>Россия · Москва</span><span>B2B поставки</span></div>
+</div>
+<div class="aboutCard">
+<h3 class="h3">География</h3>
+<ul class="cleanList">
+<li>Клиенты: РФ и Беларусь</li>
+<li>Ключевые регионы: Москва, МО, Санкт‑Петербург</li>
+<li>Поставщики: Китай, ОАЭ, Европа, СНГ</li>
+<li>Инфраструктура: офис и склад</li>
+</ul>
+</div>
+<div class="aboutCard">
+<h3 class="h3">Профиль поставок</h3>
+<ul class="cleanList">
+<li>Телевизоры</li>
+<li>Бытовая техника</li>
+<li>Компьютерная техника и периферия</li>
+<li>Комплектация под задачу и бюджет</li>
+</ul>
+</div>
+<div class="aboutCard">
+<h3 class="h3">Как работаем</h3>
+<ol class="cleanList cleanList--ol">
+<li>Заказ в системе B2B</li>
+<li>Менеджер подтверждает детали</li>
+<li>Договор и документы</li>
+<li>Отгрузка: самовывоз или доставка</li>
+</ol>
+</div>
+<details class="briefDetails" data-animate-item="">
+<summary>Все ответы из брифа (полная информация)</summary>
+<div class="briefBody"><div class="briefGroup"><div class="briefGroup__title">Общая информация о компании</div><dl class="briefDl"><dt>Полное название компании:</dt><dd>Общество с ограниченной ответственностью «ДДП-ПРО»</dd>
+<dt>Используется ли сокращение DDP PRO как основной бренд?</dt><dd>Да</dd>
+<dt>Год основания DDP PRO:</dt><dd>2012</dd>
+<dt>В каком городе / стране работает компания?</dt><dd>РФ, Москва</dd>
+<dt>Работаете локально или по всему миру?</dt><dd>Клиенты по РФ и Беларуси, поставщики есть за рубежом: Китай, ОАЭ, Европа, СНГ</dd>
+<dt>Есть ли офис / склад / производство?</dt><dd>офис, склад, 1 магазин/витрина (нужно подумать что стоит указывать на сайте и под каким "соусом")</dd>
+<dt>Юридическая форма компании:</dt><dd>Общество с ограниченной ответственностью</dd>
+<dt>Контактное лицо (имя, должность):</dt><dd>если сайт будут видеть поставщики/вендора/партнеры (не розница), то наверное есть смыл указать мой контакт</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Идея и история DDP PRO</div><dl class="briefDl"><dt>Как появилась идея создать DDP PRO?</dt><dd></dd>
+<dt>Почему ты решил заниматься именно этим направлением?</dt><dd>об этом писать не будем</dd>
+<dt>С чего всё начиналось?</dt><dd></dd>
+<dt>Какие этапы развития были самыми важными?</dt><dd></dd>
+<dt>С какими трудностями столкнулся в начале?</dt><dd></dd>
+<dt>Что сегодня отличает DDP PRO от конкурентов?</dt><dd></dd>
+<dt>В чём главная философия бренда?</dt><dd></dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Услуги / направления работы</div><dl class="briefDl"><dt>Какие основные услуги предоставляет DDP PRO?</dt><dd>Продажа телевизоров, бытовой и компьютерной техники</dd>
+<dt>Какие услуги являются ключевыми?</dt><dd>Продажа телевизоров, бытовой и компьютерной техники</dd>
+<dt>Есть ли дополнительные услуги?</dt><dd></dd>
+<dt>Работаете ли вы под ключ (полный цикл)?</dt><dd>в нашем случае полным циклом можно назвать</dd>
+<dt>Есть ли индивидуальные решения под клиента?</dt><dd>есть</dd>
+<dt>Как выглядит процесс работы с клиентом по шагам?</dt><dd>Клиент создает заказ в системе b2b, с ним связывается менеджер для уточнения и подтверждения деталей, заключение договора, далее, отгрузка заказа клиенту (самовывоз/доставка)</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Клиенты и целевая аудитория</div><dl class="briefDl"><dt>Кто основной клиент DDP PRO? (частные клиенты / бизнес / бренды / артисты и т.д.)</dt><dd>оптовые партнеры, дистрибьюторы, интернет-магазины, региональные сети</dd>
+<dt>В каких странах / городах находятся клиенты?</dt><dd>РФ, Москва, МО, Питер</dd>
+<dt>С какими нишами вы чаще всего работаете?</dt><dd></dd>
+<dt>Какие основные запросы приходят от клиентов?</dt><dd></dd>
+<dt>Почему клиенты выбирают именно DDP PRO?</dt><dd></dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Кейсы и успешные проекты</div><dl class="briefDl"><dt>Самые сильные и показательные проекты DDP PRO</dt><dd>просто перечислим партнеров, бренды, без конкретики</dd>
+<dt>Описание 3–5 лучших кейсов</dt><dd>не будем описывать</dd>
+<dt>С какими известными людьми / брендами вы работали?</dt><dd>будут в списке партнерских логотипов</dd>
+<dt>Какие задачи ставили клиенты и какие результаты получили?</dt><dd>не будет</dd>
+<dt>Есть ли фото / видео реализованных проектов?</dt><dd>не будет</dd>
+<dt>Есть ли цифры (количество проектов, лет опыта, клиентов)?</dt><dd>количество лет опыта - с момента основания по наши дни)</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Репутация и доверие</div><dl class="briefDl"><dt>Есть ли отзывы клиентов? В каком формате? (текст / видео / скриншоты)</dt><dd>нет</dd>
+<dt>Можно ли использовать отзывы на сайте?</dt><dd>думаю, что это излишне, тк сайт ориентирован на крупных партнеров - не розницу</dd>
+<dt>Есть ли публикации в СМИ / соцсетях / упоминания?</dt><dd>нет</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Команда DDP PRO</div><dl class="briefDl"><dt>Сколько человек работает в команде?</dt><dd>лучше вообще опустить этот вопрос, обтекаемо обозначив словом "растущая" компания/команда</dd>
+<dt>Основные специалисты и их роли</dt><dd>слишком подробно - это не требуется</dd>
+<dt>Есть ли фото команды?</dt><dd>не нужно</dd>
+<dt>Хочешь ли показать команду на сайте?</dt><dd>нет</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Партнёры и сотрудничество</div><dl class="briefDl"><dt>Есть ли партнёры или постоянные подрядчики?</dt><dd>перечислю сайтами на др листе, прикреплю ссылку</dd>
+<dt>С какими компаниями вы сотрудничаете?</dt><dd>перечислю сайтами на др листе, прикреплю ссылку</dd>
+<dt>Есть ли логотипы партнёров?</dt><dd>на их сайтах</dd>
+<dt>Важно ли показать партнёров на сайте?</dt><dd>да, но пока только вендоров и возможно дистри</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Конкуренты</div><dl class="briefDl"><dt>Кто основные конкуренты DDP PRO?</dt><dd>не нужно для сайта</dd>
+<dt>Какие сайты конкурентов нравятся?</dt><dd>https://www.lyambdapro.com/</dd>
+<dt>Что на сайтах конкурентов не нравится?</dt><dd>захламлённость</dd>
+<dt>В чём ваше ключевое преимущество?</dt><dd>мы гибкие - тк небольшая компания. крупные не могут позволить себе такого</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Цели сайта DDP PRO</div><dl class="briefDl"><dt>Для чего нужен сайт?  • привлечение клиентов,  • презентация бренда,  • презентация бренда,  • доверие и статус</dt><dd>объяснение кто мы такие и чем занимаемся, с кем работаем - т.е. с нами можно работать</dd>
+<dt>Какое главное действие должен сделать клиент?  • оставить заявку,  • связаться напрямую,  • заказать услугу</dt><dd>оставить заявку,  • связаться напрямую или сделать заказ</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Контакты</div><dl class="briefDl"><dt>Телефон</dt><dd>у Коли</dd>
+<dt>Email</dt><dd>у Коли</dd>
+<dt>WhatsApp / Telegram</dt><dd>у Коли</dd>
+<dt>Социальные сети</dt><dd>у Коли</dd>
+<dt>Часы работы</dt><dd>не будем указывать</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Дизайн и стиль</div><dl class="briefDl"><dt>Есть ли логотип DDP PRO?</dt><dd>есть</dd>
+<dt>Есть ли фирменные цвета?</dt><dd>есть</dd>
+<dt>Есть ли брендбук?</dt><dd>нет</dd>
+<dt>Какой стиль ближе:  • минимализм, • премиум,  • технологичный,  • строгий / брутальный</dt><dd>• технологичный + минимализм</dd>
+<dt>Примеры сайтов, которые нравятся визуально</dt><dd>https://www.lyambdapro.com/</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Контент</div><dl class="briefDl"><dt>Есть ли готовые тексты?</dt><dd>нет</dd>
+<dt>Нужно ли писать тексты с нуля?</dt><dd>да</dd>
+<dt>Есть ли фото / видео материалов?</dt><dd>нет</dd>
+<dt>Нужна ли съёмка специально для сайта?</dt><dd>нет</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Юридическая информация</div><dl class="briefDl"><dt>Реквизиты компании</dt><dd>Реквизиты</dd>
+<dt>Политика конфиденциальности</dt><dd>отсутствует, нужно написать</dd>
+<dt>Пользовательское соглашение</dt><dd>отсутствует, нужно написать</dd></dl></div>
+<div class="briefGroup"><div class="briefGroup__title">Будущее DDP PRO</div><dl class="briefDl"><dt>Планируется ли расширение услуг?</dt><dd>да</dd>
+<dt>Планируется ли выход на новые рынки?</dt><dd>всегда планируем. на какие не скажем, но планируем (цитата Коли)</dd></dl></div></div>
+</details>
+</div>
+</div>
+</section>
+<!-- Supply profile blocks (simple, premium) -->
+<section class="section" data-animate="section">
+<div class="container">
+<div class="section__head" data-animate-item="">
+<div>
+<h2 class="h2">Что поставляем</h2>
+<p class="sub">Ключевые категории для закупок — без лишнего шума.</p>
+</div>
+</div>
+<div class="tiles" data-animate-item="">
+<div class="tile">Кухня и дом</div>
+<div class="tile">Климат</div>
+<div class="tile">IT и офис</div>
+<div class="tile">Мониторы и периферия</div>
+<div class="tile">Аксессуары и расходники</div>
+<div class="tile">Комплекты под проект</div>
+</div>
+</div>
+</section>
+<!-- Banner (single full-width, no carousel) -->
+<section class="section" data-animate="section">
+<div class="container">
+<a aria-label="Перейти в B2B каталог" class="banner" data-animate-item="" href="/b2b">
+<div>
+<strong>Партнёрство, на которое можно опереться</strong>
+<p>Надёжные поставки, гарантия и документы. Начните работу в B2B уже сегодня.</p>
+</div>
+<span aria-hidden="true" class="btn btn--primary btn--pill">Войти в B2B</span>
+</a>
+</div>
+</section>
+<!-- News -->
+<section class="section" data-animate="section" id="news">
+<div class="container">
+<div class="section__head" data-animate-item="">
+<div>
+<h2 class="h2">Новости</h2>
+<p class="sub">Обновления каталога — всё ведёт в B2B.</p>
+</div>
+</div>
+<div class="cards">
+<a class="card" data-animate-item="" href="/b2b">
+<div class="card__meta">Обновление</div>
+<div class="card__title">Новый бренд в каталоге</div>
+<p class="card__text">Добавили позиции по бытовой технике и аксессуарам. Смотрите в B2B.</p>
+</a>
+<a class="card" data-animate-item="" href="/b2b">
+<div class="card__meta">Поступление</div>
+<div class="card__title">Поступление товаров</div>
+<p class="card__text">Свежие поставки по ключевым категориям. Проверьте остатки в каталоге.</p>
+</a>
+<a class="card" data-animate-item="" href="/b2b">
+<div class="card__meta">Ассортимент</div>
+<div class="card__title">Обновления ассортимента</div>
+<p class="card__text">Расширили линейки ноутбуков и периферии. Условия — в B2B.</p>
+</a>
+</div>
+</div>
+</section>
+<!-- Partner form (bottom) -->
+<section class="section" data-animate="section" id="partner">
+<div class="container">
+<div class="section__head" data-animate-item="">
+<div>
+<h2 class="h2">Анкета партнёра</h2>
+<p class="sub">Заполните форму — мы свяжемся и подготовим доступ в B2B.</p>
+</div>
+</div>
+<form class="form form--page" data-animate-item="" id="partnerForm">
+<div class="formRow">
+<div class="field">
+<label for="company">Компания / ИНН</label>
+<input id="company" name="company" placeholder="ООО «…», ИНН" required=""/>
+</div>
+<div class="field">
+<label for="contact">Контактное лицо</label>
+<input autocomplete="name" id="contact" name="contact" placeholder="Имя" required=""/>
+</div>
+</div>
+<div class="formRow">
+<div class="field">
+<label for="email">Email</label>
+<input autocomplete="email" id="email" name="email" placeholder="name@company.ru" required="" type="email"/>
+</div>
+<div class="field">
+<label for="phone2">Телефон</label>
+<input autocomplete="tel" id="phone2" name="phone" placeholder="+7 (___) ___-__-__" required=""/>
+</div>
+</div>
+<div class="field">
+<label for="request">Что нужно (категория / объёмы / сроки)</label>
+<textarea id="request" name="request" placeholder="Например: 10 ноутбуков, 20 мониторов, отгрузка на следующей неделе" required="" rows="4"></textarea>
+</div>
+<button class="btn btn--primary btn--submit" id="partnerSubmit" type="submit">Первая отгрузка</button>
+<div class="note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</div>
+</form>
+</div>
+</section>
+<!-- Footer: strict hierarchy -->
+<footer class="footer" role="contentinfo">
+<div class="container footer__grid">
+<div>
+<h3>О компании</h3>
+<p><strong>DDP PRO</strong><br/>Российская компания. Поставки техники для бизнеса.</p>
+</div>
+<div>
+<h3>Контакты</h3>
+<p>Email: <a href="mailto:ddp-pro@mail.ru">ddp-pro@mail.ru</a><br/>Телефон: <a href="tel:+74952313633">8 (495) 231-36-33</a></p>
+</div>
+</div>
+<div class="container footer__bottom">© 2025 DDP PRO</div>
+</footer>
+<!-- Mobile sheet -->
+<style>
+    .sheetOverlay{position:fixed; inset:0; background:rgba(0,0,0,.62); display:none; z-index:70;}
+    .sheetOverlay.is-open{display:block}
+    .sheet{position:fixed; left:0; right:0; bottom:-420px; z-index:75; transition:transform .28s ease; transform:translateY(0);}
+    .sheet.is-open{transform:translateY(-420px)}
+    .sheet__inner{width:min(760px, calc(100% - 24px)); margin:0 auto 12px; border:1px solid rgba(245,247,246,.16); border-radius:20px; background:rgba(7,8,9,.96); box-shadow: var(--shadow); padding:14px;}
+    .sheet__top{display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:10px}
+    .sheet__nav{display:grid; gap:10px}
+    .sheet__nav a{padding:12px 12px; border:1px solid var(--line); border-radius:14px; background:rgba(255,255,255,.02)}
+  </style>
+<div aria-hidden="true" class="sheetOverlay" id="sheetOverlay"></div>
+<div aria-hidden="true" class="sheet" id="mobileSheet">
+<div class="sheet__inner">
+<div class="sheet__top">
+<div class="panel__title">Меню</div>
+<button aria-label="Закрыть" class="iconBtn" id="sheetClose">✕</button>
+</div>
+<div class="sheet__nav">
+<a href="#partner">Стать партнёром</a>
+<a href="#aboutCompany">О компании</a>
+<a class="btn btn--accent" href="/b2b" role="button">Вход в B2B</a>
+</div>
+</div>
+</div>
+</body>
+</html>

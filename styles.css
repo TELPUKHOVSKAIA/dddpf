@@ -594,3 +594,10 @@ a{color:inherit; text-decoration:none}
 
 
 .button-primary, .btn-b2b { color: #000 !important; }
+/* FIX: Header B2B button text must be BLACK (override .nav a color) */
+.header .nav a.btn.btn--primary.btn--header,
+.header .nav a.btn.btn--primary.btn--header:hover,
+.header .nav a.btn.btn--primary.btn--header:focus,
+.header .nav a.btn.btn--primary.btn--header:active {
+  color: #000 !important;
+}
